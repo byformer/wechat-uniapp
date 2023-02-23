@@ -1,15 +1,10 @@
 {
 	"pages": [{
-	
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}    
-        ,{
             "path" : "pages/home/home",
+			
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                
                 "enablePullDownRefresh": false
             }
             
@@ -17,40 +12,64 @@
         
         ,{
             "path" : "pages/cart/cart",
+			
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                
                 "enablePullDownRefresh": false
             }
             
         }
         ,{
             "path" : "pages/cate/cate",
+			
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                
                 "enablePullDownRefresh": false
             }
             
         }
         ,{
             "path" : "pages/my/my",
+		
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                
                 "enablePullDownRefresh": false
             }
             
         }
     ],
+	  "subPackages": [
+	    {
+	      "root": "subpkg",
+	      "pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	    }
+	  ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"app-plus": {
-			"background": "#efeff4"
-		}
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "欢乐优购",
+		"navigationBarBackgroundColor": "#C00000",
+		"backgroundColor": "#FFFFFF"  
 	},
 	 "tabBar": {
 	    "selectedColor": "#C00000",
