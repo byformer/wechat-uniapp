@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.sugg-list {
+  padding: 0 5px;
+}
+.sugg-list .sugg-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #efefef;
+}
+.sugg-list .sugg-item .goods-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 3px;
+}
+

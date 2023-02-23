@@ -1,6 +1,6 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["subpkg/goods_list/goods_list"],{
 
-/***/ 42:
+/***/ 71:
 /*!*********************************************************************************************************************!*\
   !*** /Users/former/wechat-demo/wechat-day02/wechat-uniapp-demo/main.js?{"page":"subpkg%2Fgoods_list%2Fgoods_list"} ***!
   \*********************************************************************************************************************/
@@ -13,7 +13,7 @@
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 __webpack_require__(/*! uni-pages */ 26);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 25));
-var _goods_list = _interopRequireDefault(__webpack_require__(/*! ./subpkg/goods_list/goods_list.vue */ 66));
+var _goods_list = _interopRequireDefault(__webpack_require__(/*! ./subpkg/goods_list/goods_list.vue */ 72));
 // @ts-ignore
 wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
 createPage(_goods_list.default);
@@ -21,7 +21,7 @@ createPage(_goods_list.default);
 
 /***/ }),
 
-/***/ 66:
+/***/ 72:
 /*!**************************************************************************************************!*\
   !*** /Users/former/wechat-demo/wechat-day02/wechat-uniapp-demo/subpkg/goods_list/goods_list.vue ***!
   \**************************************************************************************************/
@@ -154,5 +154,5 @@ exports.default = _default;
 
 /***/ })
 
-},[[42,"common/runtime","common/vendor"]]]);
+},[[71,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/subpkg/goods_list/goods_list.js.map
